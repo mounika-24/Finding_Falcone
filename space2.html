@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="space2.css">
+    <script type="text/javascript" src="M:\Geektrust\Trial2\space2.js" defer></script>
+</head>
+
+<body>
+    <div class="bg-conatiner">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <h1 class="navbar-brand">Finding Falcon</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <button class="info-button" data-toggle="modal" data-target="#planetsModal">
+                        Planets
+                    </button>
+                    <div class="modal fade" id="planetsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Planets</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body info-given">
+                            <div class="planets-info">
+                                <img src="https://res.cloudinary.com/mamidala24/image/upload/v1646921843/Donlon_ss1cyu.png" class="planet-image"/>
+                            </div>
+                            <div class="planets-info">
+                                <img src="https://res.cloudinary.com/mamidala24/image/upload/v1646921843/Enchai_nymiap.png" class="planet-image"/>
+                                
+                            </div>
+                            <div class="planets-info">
+                                <img src="https://res.cloudinary.com/mamidala24/image/upload/v1646921843/Jebing_yl3koa.png" class="planet-image"/>
+                                
+                            </div>
+                            <div class="planets-info">
+                                <img src="https://res.cloudinary.com/mamidala24/image/upload/v1646921844/Sapir_hufejk.png" class="planet-image"/>
+                                
+                            </div>
+                            <div class="planets-info">
+                                <img src="https://res.cloudinary.com/mamidala24/image/upload/v1646921843/Lerbin_kvafej.png" class="planet-image"/>
+                                
+                            </div>
+                            <div class="planets-info">
+                                <img src="https://res.cloudinary.com/mamidala24/image/upload/v1646921844/Pingasor_bdcfpa.png" class="planet-image"/>
+                                
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="info-button" data-toggle="modal" data-target="#vehiclesModal">
+                        Vehicles
+                    </button>
+                    <div class="modal fade" id="vehiclesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Planets</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body info-given">
+                            <div class="vehicle-info">
+                                <img src="https://res.cloudinary.com/mamidala24/image/upload/v1643986941/Space_pod_fetxu4.png" class="vehicle-image" />
+                                <p>Space Pod</p>
+                                <p>Available: 2</p>
+                                <p>Speed: 2 megamiles/hour</p>
+                                <p>Max-distance: 200 megamiles</p>
+                            </div>
+                            <div class="vehicle-info">
+                                <img src="https://res.cloudinary.com/mamidala24/image/upload/v1643986941/Space_rocket_e5aylg.png" class="vehicle-image" />
+                                <p>Space Rocket</p>
+                                <p>Available: 1</p>
+                                <p>Speed: 4 megamiles/hour</p>
+                                <p>Max-distance: 300 megamiles</p>
+                            </div>
+                            <div class="vehicle-info">
+                                <img src="https://res.cloudinary.com/mamidala24/image/upload/v1643986941/Space_shuttle_a2mk1o.png" class="vehicle-image" />
+                                <p>Space Shuttle</p>
+                                <p>Available: 1</p>
+                                <p>Speed: 5 megamiles/hour</p>
+                                <p>Max-distance: 400 megamiles</p>
+                            </div>
+                            <div class="vehicle-info">
+                                <img src="https://res.cloudinary.com/mamidala24/image/upload/v1643986941/Space_ship_qacrjj.png" class="vehicle-image" />
+                                <p>Space Ship</p>
+                                <p>Available: 2</p>
+                                <p>Speed: 10 megamiles/hour</p>
+                                <p>Max-distance: 600 megamiles</p>
+                            </div>
+                        </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="main-page" id="sectionMainPage">
+            <div>
+                <img src="https://res.cloudinary.com/mamidala24/image/upload/v1643986941/Target_iljz2o.png" class="target-image" />
+            </div>
+            <div>
+                <h1 class="game-intro">
+                    In the planet of Lengaburu…in the distant
+                    distant galaxy of Tara B. After the recent war with neighbouring
+                    planet Falicornia, King Shan has exiled the Queen of Falicornia
+                    for 15 years.<br>
+                    Queen Al Falcone is now in hiding. But if King Shan can find
+                    her before the years are up, she will be exiled for another 15
+                    years….<br> <br>
+                    King Shan has received intelligence that Al Falcone is in hiding in one of these 6 planets -
+                    DonLon, Enchai, Jebing, Sapir, Lerbin & Pingasor. However he has limited
+                    resources at his disposal & can send his army to only 4 of these planets.
+                    <br><br>Help King Shan find Al Falcone.
+                </h1>
+                <button class="game-start-btn" onclick="display('sectionGamePage')">Start Game</button>
+            </div>
+
+        </div>
+        <div class="game-page" id="sectionGamePage">
+            <h1 class="start-game-text">
+                Choose Four planets for King Shan to search.
+                <br> Keep in mind each vehicle has a maximum limit on travelling distance.
+                <br>
+            </h1>
+            <div class="select-container" id="selectionContainer">
+                <div class="planet-selection">
+                    <label for="Planet1">1st planet</label>
+                    <select id="Planet1" class="" name="1">
+                        <option value="none" selected disabeled hidden>Select Planet</option>
+                    </select>
+                </div>
+                <div class="vehicle-selection">
+                    <label for="Vehicle1">1st Vehicle</label>
+                    <select id="Vehicle1" class="" name="1">
+                        <option value="none" selected disabeled hidden>Select Vehicle</option>
+                    </select>
+                </div>
+            </div>
+            <div class="select-container" id="selectionContainer">
+                <div class="planet-selection">
+                    <label for="Planet2">2nd planet</label>
+                    <select id="Planet2" class="" name="2">
+                        <option value="none" selected disabeled hidden>Select Planet</option>
+                    </select>
+                </div>
+                <div class="vehicle-selection">
+                    <label for="Vehicle2">2nd Vehicle</label>
+                    <select id="Vehicle2" class="" name="2">
+                        <option value="none" selected disabeled hidden>Select Vehicle</option>
+                    </select>
+                </div>
+            </div>
+            <div class="select-container" id="selectionContainer">
+                <div class="planet-selection">
+                    <label for="Planet3">3rd planet</label>
+                    <select id="Planet3" class="" name="3">
+                        <option value="none" selected disabeled hidden>Select Planet</option>
+                    </select>
+                </div>
+                <div class="vehicle-selection">
+                    <label for="Vehicle3">3rd Vehicle</label>
+                    <select id="Vehicle3" class="" name="3">
+                        <option value="none" selected disabeled hidden>Select Vehicle</option>
+                    </select>
+                </div>
+            </div>
+            <div class="select-container" id="selectionContainer">
+                <div class="planet-selection">
+                    <label for="Planet4">4th planet</label>
+                    <select id="Planet4" class="" name="4">
+                        <option value="none" selected disabeled hidden>Select Planet</option>
+                    </select>
+                </div>
+                <div class="vehicle-selection">
+                    <label for="Vehicle4">4th Vehicle</label>
+                    <select id="Vehicle4" class="" name="4">
+                        <option value="none" selected disabeled hidden>Select Vehicle</option>
+                    </select>
+                </div>
+            </div>
+            <div class="Time-container">
+                <p id="TimeTaken"></p>
+            </div>
+            <button class="search-btn m-auto" id="searchButton" onclick="display('sectionResultPage')">Search</button>
+        </div>
+        <div id="sectionResultPage" class="result-page">
+            <p id="resultPara" class="result-para">
+
+            </p>
+        </div>
+        <footer class="footer">
+            <p> Coding problem @ 2020 greektrust.in All rights reserved</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

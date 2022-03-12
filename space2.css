@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.bg-conatiner {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.info-button{
+    margin: 5px;
+    border-style: hidden;
+}
+.info-given{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f4f5d7;
+}
+.vehicle-info {
+    text-align: center;
+    margin: 8px;
+    flex-grow: 1;
+    background-color: white;
+}
+.planets-info{
+    text-align: center;
+    margin: 8px;
+}
+.vehicle-image {
+    width: 80px;
+    height: 80px;
+}
+.planet-image{
+    width: 120px;
+    height: 120px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 10px;
+
+}
+
+.main-page {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+@media (min-width: 768px) {
+    .main-page {
+        flex-direction: row;
+    }
+}
+
+.target-image {
+    margin: 10px;
+    max-height: 200px;
+}
+
+.game-intro {
+    font-family: "Roboto";
+    font-size: 23px;
+    text-align: center;
+    font-style: italic;
+    margin: 10px;
+}
+
+.game-start-btn {
+    min-width: 100px;
+    width: 30%;
+    border-radius: 7px;
+    align-self: center;
+}
+
+.game-page {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    justify-content: space-around;
+    text-align: center;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.start-game-text {
+    font-size: 20px;
+    text-align: center;
+}
+
+.select-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.planet-selection {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    min-width: 30%;
+    min-height: 60px;
+}
+
+.vehicle-selection {
+    display: flex;
+    flex-direction: column;
+    min-width: 30%;
+    min-height: 60px;
+}
+
+@media (min-width: 768px) {
+    .planet-selection {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .vehicle-selection {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+select {
+    padding: 5px;
+}
+
+.result-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.result-para {
+    text-align: center;
+}
